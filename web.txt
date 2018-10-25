@@ -1,0 +1,12 @@
+import requests 
+from bs4 import BeautifulSoup
+import sys
+														
+sitem=input("Enter search parameter :")
+url="http://www.google.co.in/search?q="+ sitem
+
+response=requests.get(url)
+soup=BeautifulSoup(response.text,"lxml")
+
+for item in soup.select(".r a"):
+	print(item.text)
