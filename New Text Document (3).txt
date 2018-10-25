@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>
+VALIDATION FORM
+</title>
+<script>
+function validation()
+{
+var p=document.myform.password.value;
+if(p=="")
+{
+alert("password can't be blank");
+return false;
+}
+else if(p.length<8)
+{
+alert("password must be atleast 8 characters long");
+return false;
+}
+else
+{
+alert(" You have logged in sucessfullyl");
+return false;
+}
+}
+</script>
+</head>
+<form name="myform" method="post" action="register.php" onsubmit="return validation()">
+email-id:<br>
+<input type="text" name="email-id"><br>
+username:<br>
+<input type="text" name="username"><br>
+password:<br>
+<input type="text" name="password"><br><br>
+<input type="submit" value="login"><br>
+</form>
+<body>
+</body>
+</html>
