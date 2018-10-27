@@ -1,20 +1,18 @@
 import urllib
  from urllib.request import urlopen
-print("Give values x&y")
-x=input()
-y=input()
-print("Givewhat operations need to be carried \n add for addition \n sub for subtracion \n mul for multiplication" )
-c=input()
+from random import randint
+import random
+x=randint(2,500)
+y=randint(2,500)
+list=("add","sub")
+c=random.choice(list)
 if(c=="add"):
-	c=float(x)+float(y)
-	print(c)
+	v=float(x)+float(y)
 if(c=="sub"):
-	c=float(x)-float(y)
-	print(c)
-if(c=="mul"):
-	c=float(x)*float(y)
-	print(c)
-printif("YOUR PNG FILE WILL GET DOWNLOADED")
-url="https://cdn.pixabay.com/photo/2017/01/03/02/07/vine-1948358_960_720.png"
-image=urllib.urlretrieve(url,"pngfile.png")
-image=urllib.request.urlretrieve(url,"pngfile.png")
+	v=float(x)-floaty)
+w=input()
+if(w==v)	
+	printif("YOUR PNG FILE WILL GET DOWNLOADED")
+	url="https://cdn.pixabay.com/photo/2017/01/03/02/07/vine-1948358_960_720.png"
+	image=urllib.urlretrieve(url,"pngfile.png")
+	image=urllib.request.urlretrieve(url,"pngfile.png")
