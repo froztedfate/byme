@@ -22,11 +22,8 @@ paddle_b.goto(350,0)
 ball=turtle.Turtle()
 ball.speed(0)
 ball.shape("square")
-ball.color("white")0
-ballpenup()
+ball.color("white")
 ball.goto(0,0)
-ball.dx=2
-ball.dy=2
 def paddleaup():
 	y=paddle_a.ycor()
 	y+=20
