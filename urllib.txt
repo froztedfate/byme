@@ -10,6 +10,9 @@ if(c=="add"):
 	v=float(x)+float(y)
 if(c=="sub"):
 	v=float(x)-floaty)
+x
+y
+c
 w=input()
 if(w==v)	
 	printif("YOUR PNG FILE WILL GET DOWNLOADED")
